@@ -67,7 +67,6 @@ Selected papers associated with the above figure.
 
 
 ## Techniques
-### FinPLMs
 - [FinPLMs] Continual Pre-training **: FinBert-19**
 <p align="left"><img src="./img/techniques1.png" style="max-width: 70%;"></p>
 
