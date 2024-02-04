@@ -4,23 +4,19 @@
 	<img src="./img/1_timeline.png" alt="FinLLMs" style="max-width: 100%;">	     
 </p>
 
-A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/). This survey will be actively updated including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned! 
-
+A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/). This survey will be actively updated including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned!🔥
 
 
 ## Table of Contents
 - [Evolution](#evolution) : from General LMs to Financial LMs
-      - General-domain LMs 
-      - Financial-domain LMs
+    - General-domain LMs 
+    - Financial-domain LMs
 - [Techniques](#techniques) : from FinPLMs to FinLLMs
-  - [FinPLMs]
-      - Continual Pre-training : **FinBert-19**
-      - Domain-Specific Pre-training from Scratch : **FinBERT-20**
-      - Mixed-Domain Pre-training : **FinBERT-21, FLANG**
-  - [FinLLMs]
-      - Mixed-Domain LLM with Prompt Engineering : **BloombergGPT**
-      - Instruction Fine-tuned LLM with Prompt Engineering : **FinMA, InvestLM, FinGPT**
-
+    - Continual Pre-training : **FinBert-19**
+    - Domain-Specific Pre-training from Scratch : **FinBERT-20**
+    - Mixed-Domain Pre-training : **FinBERT-21, FLANG**
+    - Mixed-Domain LLM with Prompt Engineering : **BloombergGPT**
+    - Instruction Fine-tuned LLM with Prompt Engineering : **FinMA, InvestLM, FinGPT**
 - [Benchmark Tasks and datasets](#benchmark-tasks-and-datasets) 
     - Sentiment Analysis
     - Text Classification
@@ -28,7 +24,6 @@ A curated list of resources of LLMs in Finance (FinLLMs) including their history
     - Question Answering
     - Stock Movement Prediction
     - Text Summarization
-
 - [Advanced Tasks and datasets](#advanced-tasks-and-datasets) 
     - Relation Extraction
     - Event Detection
@@ -38,14 +33,12 @@ A curated list of resources of LLMs in Finance (FinLLMs) including their history
     - Multimodal Understanding
     - Machine Translation
     - Market Forecasting
-
 - [Other Useful Resources](#other-useful-resources)
 - [Citation](#citation)
 
 
 ## Evolution
 Selected papers associated with the above figure.
-
 
 ### General-domain LMs 
 - **GPT-1 :** Improving Language Understanding by Generative Pre-Training. 2018. [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
@@ -59,7 +52,6 @@ Selected papers associated with the above figure.
 - **LLaMA :** LLaMA: Open and Efficient Foundation Language Models. 2023. [Paper](https://arxiv.org/abs/2302.13971v1)
 - **LLaMA2 :** Llama 2: Open foundation and fine-tuned chat models. 2023. [Paper](https://arxiv.org/abs/2307.09288)
 
-
 ### Financial-domain LMs 
 - **FinBert-19 :** FinBERT: Financial Sentiment Analysis with Pre-trained Language Models. 2019. [Paper](https://arxiv.org/abs/1908.10063) | [Github](https://github.com/ProsusAI/finBERT) | [HuggingFace](https://huggingface.co/ProsusAI/finbert)
 - **FinBert-20 :** FinBERT: A Pretrained Language Model for Financial Communications. 2020. [Paper](https://arxiv.org/abs/2006.08097) | [Github](https://github.com/yya518/FinBERT) | [HuggingFace](https://huggingface.co/yiyanghkust/finbert-pretrain)
@@ -70,35 +62,29 @@ Selected papers associated with the above figure.
 - **InvestLM :** InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning. 2023. [Paper](https://arxiv.org/abs/2309.13064) | [Github](https://github.com/AbaciNLP/InvestLM)
 - **FinGPT :** FinGPT: Instruction Tuning Benchmark for Open-Source Large Language Models in Financial Datasets. *NeurIPS Workshop 2023*. [Paper](https://arxiv.org/abs/2310.04793) | [Github](https://github.com/AI4Finance-Foundation/FinGPT)| [HuggingFace](https://huggingface.co/FinGPT)
 
+
 <p align="center"><img src="./img/2_summary.png" alt="summary_FinLMs" style="max-width: 100%;"></p>
 
 
 ## Techniques
 ### FinPLMs
-- Continual Pre-training **: FinBert-19**
+- [FinPLMs] Continual Pre-training **: FinBert-19**
 <p align="left"><img src="./img/techniques1.png" style="max-width: 70%;"></p>
 
-- Domain-Specific Pre-training from Scratch  **: FinBERT-20**
-<p align="left"><img src="./img/techniques2.png" style="max-width: 70%;"></p>
-
-- Mixed-Domain Pre-training  **: FinBERT-21, FLANG**
-<p align="left"><img src="./img/techniques3.png" style="max-width: 70%;"></p>
-
-### FinLLMs
-- Mixed-Domain LLM with Prompt Engineering **: BloombergGPT**
-<p align="left"><img src="./img/techniques4.png" style="max-width: 70%;"></p>
-
-- Instruction Fine-tuned LLM with Prompt Engineering **: FinMA, InvestLM, FinGPT**
-<p align="left"><img src="./img/techniques5.png" style="max-width: 70%;"></p>
+- [FinPLMs] Domain-Specific Pre-training from Scratch  **: FinBERT-20**
+- [FinPLMs] Mixed-Domain Pre-training  **: FinBERT-21, FLANG**
+- [FinLLMs] Mixed-Domain LLM with Prompt Engineering **: BloombergGPT**
+- [FinLLMs] Instruction Fine-tuned LLM with Prompt Engineering **: FinMA, InvestLM, FinGPT**
+<p align="left"><img src="./img/3_techniques.png" style="max-width: 100%;"></p>
 
 
 ## Benchmark Tasks and datasets  
-<p align="left"><img src="./img/3_radar.png" alt="eval_FinLLMs" style="max-width: 70%;"></p>
+<p align="left"><img src="./img/4_radar.png" alt="eval_FinLLMs" style="max-width: 70%;"></p>
 
 Evaluation summary of representative models across 6 financial NLP tasks
 - models : FinPLMs (FLANG), FinLLMs (BloombergGPT, FinMA), LLMs (ChatGPT, GPT-4), and task-specific state-of-the-art models (SOTA) models across 6 financial NLP tasks. 
 - FinPLMs did not perform experiments on the more complex tasks such as Hybrid QA, SMP or Summ; hence, these data points are not included.
-
+- Results are referenced from original or analysis research, and SOTA results from task-specific models.
 
 
 | **Task** | **Dataset** | **Paper**        |  **Venue**  | **Link**  | **Data Link** |
@@ -128,17 +114,17 @@ Evaluation summary of representative models across 6 financial NLP tasks
 
 ### Evaluation details across 6 financial NLP tasks
 - Sentiment Analysis (SA)
-<p align="left"><img src="./img/table1.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table1.png" style="max-width: 40%;"></p>
 - Text Classification (TC)
-<p align="left"><img src="./img/table2.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table2.png" style="max-width: 40%;"></p>
 - Named Entity Recognition (NER)
-<p align="left"><img src="./img/table3.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table3.png" style="max-width: 40%;"></p>
 - Question Answering (QA)
-<p align="left"><img src="./img/table4.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table4.png" style="max-width: 40%;"></p>
 - Stock Movement Prediction (SMP)
-<p align="left"><img src="./img/table5.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table5.png" style="max-width: 40%;"></p>
 - Text Summarization (Summ)
-<p align="left"><img src="./img/table6.png" style="max-width: 50%;"></p>
+<p align="left"><img src="./img/table6.png" style="max-width: 40%;"></p>
 
 
 
@@ -170,7 +156,7 @@ We include several workshops and programs for financial NLP. The link directs to
 - [KDF] Knowledge Discovery from Unstructured Data in Financial Services [4th](https://kdf-workshop.github.io/kdf23/)
 
 
-
+<!--
 ## Citation
 
 ```bibtex
@@ -183,40 +169,5 @@ We include several workshops and programs for financial NLP. The link directs to
         primaryClass={}
     }
 ```
+--->
 
-
-<!--
-SA Datasets
-- **Financial PhraseBank (FPB) :** Good Debt or Bad Debt: Detecting Semantic Orientations in Economic Texts. *JASIST 2014*. [Paper](https://arxiv.org/abs/1307.5336) | [HuggingFace](https://huggingface.co/datasets/financial_phrasebank)
-- **FiQA-SA :** WWW'18 Open Challenge: Financial Opinion Mining and Question Answering. *WWW Workshop 2018*. [Paper](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3192301) | [HuggingFace](https://huggingface.co/datasets/ChanceFocus/flare-fiqasa)
-- **SemEval-2017 :** SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogs and News. *SemEval 2017*. [Paper](https://aclanthology.org/S17-2089/) | [Bitbucket](https://bitbucket.org/ssix-project/semeval-2017-task-5-subtask-1/src/master/)
-- **StockEmotions :** StockEmotions: Discover Investor Emotions for Financial Sentiment Analysis and Multivariate Time Series. *AAAI Bridge 2023*. [Paper](https://arxiv.org/abs/2301.09279) | [Github](https://github.com/adlnlp/StockEmotions)
-
-TC Datasets
-- **Headline :** Impact of News on the Commodity Market: Dataset and Results. *FICC 2021*. [Paper](https://arxiv.org/abs/2009.04202) | [Kaggle](https://www.kaggle.com/datasets/daittan/gold-commodity-news-and-dimensions)
-- **FedNLP :** FedNLP: An interpretable NLP System to Decode Federal Reserve Communications. *SIGIR 2021*. [Paper](https://arxiv.org/abs/2106.06247) | [Github](https://github.com/usydnlp/FedNLP)
-- **FOMC :** Trillion Dollar Words: A New Financial Dataset, Task & Market Analysis. *ACL 2023*. [Paper](https://aclanthology.org/2023.acl-long.368/) | [Github](https://github.com/gtfintechlab/fomc-hawkish-dovish)
-- **Baking77 :** Efficient Intent Detection with Dual Sentence Encoders. *NLP4ConvAI Workshop 2020*. [Paper](https://aclanthology.org/2020.nlp4convai-1.5/) | [HuggingFace](https://huggingface.co/datasets/PolyAI/banking77)
-
-NER Datasets
-- **FIN :** Domain Adaption of Named Entity Recognition to Support Credit Risk Assessment. *ALTA Workshop 2015*. [Paper](https://aclanthology.org/U15-1010/) | [HuggingFace](https://huggingface.co/datasets/ChanceFocus/flare-ner)
-- **FiNER-139 :** FiNER: Financial Numeric Entity Recognition for XBRL Tagging. *ACL 2022*. [Paper](https://aclanthology.org/2022.acl-long.303/) | [Github](https://github.com/nlpaueb/finer)
-
-Financial QA Datasets
-- **FiQA-QA :** WWW'18 Open Challenge: Financial Opinion Mining and Question Answering. *WWW Workshop 2018*. [Paper](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3192301) | [HuggingFace](https://huggingface.co/datasets/FinGPT/fingpt-fiqa_qa)
-- **FinQA :** FinQA: A Dataset of Numerical Reasoning over Financial Data. *EMNLP 2021*. [Paper](https://arxiv.org/abs/2109.00122) | [Github](https://github.com/czyssrs/FinQA)
-- **ConvFinQA :** ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering. *EMNLP 2022*. [Paper](https://arxiv.org/abs/2210.03849) | [Github](https://github.com/czyssrs/ConvFinQA)
-- **TAT-QA :** TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and
-Textual Content in Finance. *ACL 2021*. [Paper](https://aclanthology.org/2021.acl-long.254/) | [Github](https://github.com/NExTplusplus/TAT-QA)
-- **PACIFIC :** PACIFIC: Towards Proactive Conversational Question Answering over Tabular and Textual Data in Finance. *EMNLP 2022*. [Paper](https://aclanthology.org/2022.emnlp-main.469/) | [Github](https://github.com/dengyang17/PACIFIC)
-
-SMP Datasets
-- **StockNet :** Stock Movement Prediction from Tweets and Historical Prices. *ACL 2018*. [Paper](https://aclanthology.org/P18-1183/) | [Github](https://github.com/yumoxu/stocknet-dataset)
-- **CIKM18 :** Hybrid Deep Sequential Modeling for Social Text-Driven Stock Prediction. *CIKM 2018*. [Paper](https://weizhangltt.github.io/paper/cikm18-stock-preprint.pdf) | [Github](https://github.com/wuhuizhe/CHRNN)
-- **BigData22 :** Accurate Stock Movement Prediction with Self-supervised Learning from Sparse Noisy Tweets. *IEEE BigData 2022*. [Paper](https://jaeminyoo.github.io/resources/papers/SounYCJK22.pdf) | [Github](https://github.com/deeptrade-public/slot)
-
-Summ Datasets
-- **ECTSum :** ECTSum: A New Benchmark Dataset For Bullet Point Summarization of
-Long Earnings Call Transcripts. *EMNLP 2022*. [Paper](https://aclanthology.org/2022.emnlp-main.748/) | [Github](https://github.com/rajdeep345/ECTSum)
-- **MultiLing 2019 :** MultiLing 2019: Financial Narrative Summarisation. *RANLP 2019*. [Paper](https://aclanthology.org/W19-8902/) | [Website](http://multiling.iit.demokritos.gr/pages/view/1648/task-financial-narrative-summarization)
--->
