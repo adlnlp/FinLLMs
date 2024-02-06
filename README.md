@@ -4,7 +4,7 @@
 	<img src="./img/1_timeline.png" alt="FinLLMs" style="max-width: 100%;">	     
 </p>
 
-A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/). This survey will be actively updated including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned!🔥
+A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315). This survey will be actively updated including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned!🔥
 
 
 ## Table of Contents
@@ -159,13 +159,11 @@ We include several workshops and programs for financial NLP. The link directs to
 ## Citation
 
 ```bibtex
-    @article{Lee2024FinLLMs,
+    @article{lee2024survey,
         title={A Survey of Large Language Models in Finance (FinLLMs)}, 
-        author={Jean Lee, },
-        year={2023},
-        eprint={},
-        archivePrefix={arXiv},
-        primaryClass={}
+        author={Jean Lee and Nicholas Stevens and Soyeon Caren Han and Minseok Song},
+	journal={arXiv preprint arXiv:2402.02315},
+        year={2024}
     }
 ```
 --->
