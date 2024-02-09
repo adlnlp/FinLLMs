@@ -155,16 +155,15 @@ We include several workshops and programs for financial NLP. The link directs to
 - [KDF] Knowledge Discovery from Unstructured Data in Financial Services [4th](https://kdf-workshop.github.io/kdf23/)
 
 
-<!--
-## Citation
 
+## Citation
 ```bibtex
+
     @article{lee2024survey,
         title={A Survey of Large Language Models in Finance (FinLLMs)}, 
-        author={Jean Lee and Nicholas Stevens and Soyeon Caren Han and Minseok Song},
+        author={Lee, Jean and Stevens, Nicholas and Han, Soyeon Caren and Song, Minseok},
 	journal={arXiv preprint arXiv:2402.02315},
         year={2024}
     }
 ```
---->
 
