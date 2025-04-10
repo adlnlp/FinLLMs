@@ -1,10 +1,10 @@
-<h1 align="center">A Survey of Large Language Models in Finance (FinLLMs)</h1>
+<h1 align="center">Large Language Models in Finance (FinLLMs)</h1>
 
 <p align="center">
 	<img src="./img/1_timeline.png" alt="FinLLMs" style="max-width: 100%;">	     
 </p>
 
-A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315). This survey will be actively updated including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned!🔥
+A curated list of resources of LLMs in Finance (FinLLMs) including their history, techniques, evaluation, and opportunities and challenges. It's based on our survey paper: [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315) (preprint), accepted at [Neural Computing and Applications 2025](https://link.springer.com/article/10.1007/s00521-024-10495-6). This survey will be actively updated, including further evaluation of advanced Financial NLP tasks, a collection of financial datasets, and sharing FinLLM use-cases. Please stay tuned!🔥
 
 
 ## Table of Contents
@@ -159,11 +159,13 @@ We include several workshops and programs for financial NLP. The link directs to
 ## Citation
 ```bibtex
 
-    @article{lee2024survey,
-        title={A Survey of Large Language Models in Finance (FinLLMs)}, 
-        author={Lee, Jean and Stevens, Nicholas and Han, Soyeon Caren and Song, Minseok},
-	journal={arXiv preprint arXiv:2402.02315},
-        year={2024}
-    }
+@article{lee2025large,
+  title={Large Language Models in Finance (FinLLMs)},
+  author={Lee, Jean and Stevens, Nicholas and Han, Soyeon Caren},
+  journal={Neural Computing and Applications},
+  pages={1--15},
+  year={2025},
+  publisher={Springer}
+}
 ```
 
